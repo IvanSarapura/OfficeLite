@@ -42,7 +42,7 @@ setInterval(() => {
   arrayTimer[3] = secondes;
 
   setTimer.forEach((item, index) => {
-    item.innerText = `${arrayTimer[index]}`;
+    item.innerText = `${padNumber(arrayTimer[index])}`;
   });
 }, 1000);
 
@@ -162,3 +162,7 @@ if (myForm) {
     e.preventDefault();
   });
 }
+
+const padNumber = (number) => {
+  return number < 10 ? `0${number}` : number;
+};

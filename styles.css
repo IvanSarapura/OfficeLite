@@ -281,7 +281,7 @@ img {
 }
 
 .sign-up .li-timer {
-  background-color: hsla(228, 100%, 66%, 0.2);
+  background-color: #e9edfb;
   color: #5175ff;
 }
 
@@ -730,7 +730,7 @@ select {
         calc(50% + 35rem) -42rem / 110rem,
       linear-gradient(
         to right,
-        #fff calc(50% + 20rem),
+        #fafafa calc(50% + 20rem),
         #25293a calc(50% + 20rem)
       );
   }
@@ -793,7 +793,7 @@ select {
     width: 27.8125rem;
     margin: 0;
     padding: 1.625rem 2.75rem 3.125rem;
-    box-shadow: 1rem 1rem 3rem hsla(0, 0%, 19%, 0.4);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
   }
 }
 
