@@ -415,7 +415,7 @@ select {
   background: url(./images/sign-up/icon-check.svg) no-repeat;
   position: absolute;
   top: 1.6rem;
-  right: 0;
+  right: 1rem; /* original 0 */
 }
 
 .option span {
@@ -797,6 +797,7 @@ select {
   }
 }
 
+/* Menu desplegable */
 .optList {
   transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
   opacity: 1;
@@ -808,12 +809,6 @@ select {
   visibility: hidden;
 }
 
-.option span.discount {
+.discount-price {
   color: #f05b5b;
-}
-
-.original-price {
-  color: #f05b5b;
-  text-decoration: line-through;
-  text-decoration-color: #f05b5b;
 }

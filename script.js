@@ -85,7 +85,7 @@ if (whichPlan) {
       optionCustom[2].children[1].classList.remove("checked");
       subscription = 1;
       selectDefault.value = selectDefault[1].value;
-      inputSelectCustom.innerHTML = `${selectDefault.value} Pack <span>$9.99</span><span class="arrow"></span>`;
+      inputSelectCustom.innerHTML = `${selectDefault.value} Pack <span>$4.99</span><span class="arrow"></span>`;
       break;
 
     case "ultimate":
@@ -94,7 +94,7 @@ if (whichPlan) {
       optionCustom[1].children[1].classList.remove("checked");
       subscription = 2;
       selectDefault.value = selectDefault[2].value;
-      inputSelectCustom.innerHTML = `${selectDefault.value} Pack <span>$19.99</span><span class="arrow"></span>`;
+      inputSelectCustom.innerHTML = `${selectDefault.value} Pack <span>$9.99</span><span class="arrow"></span>`;
       break;
   }
 }
@@ -123,9 +123,9 @@ optionCustom.forEach((item, index) => {
           if (i === 0) {
             return "Free";
           } else if (i === 1) {
-            return "$9.99";
+            return "$4.99";
           } else if (i === 2) {
-            return "$19.99";
+            return "$9.99";
           }
         };
 
